@@ -1,0 +1,45 @@
+.contact-main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 70px;
+}
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact-main h1 {
+	font-size: 3rem;
+}
+.address a {
+	font-size: 2.5rem;
+	color: #b3a577;
+}
+.address a:hover {
+	color: #fff;
+	transition: 0.3s linear;
+}
+.contact-main h3:active {
+	font-weight: 800;
+}
+.contact-links {
+	padding: 0;
+	display: flex;
+}
+.contact-links li {
+	list-style-type: none;
+	margin: 0 50px;
+	padding: 5px 0;
+	font-size: 3rem;
+	font-weight: 600;
+	background-image: linear-gradient(45deg, #b3a577, #fff);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.link:hover {
+	background-image: linear-gradient(45deg, #fff, #fff);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: 0.3s linear;
+}

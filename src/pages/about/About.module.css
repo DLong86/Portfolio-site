@@ -1,0 +1,19 @@
+.about-main {
+	padding-top: 20px;
+	padding-bottom: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+	background-color: #faf9f6;
+	color: #181818;
+}
+.profile {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 40px auto;
+	background-image: url('../../../public/IMG_9502.jpeg');
+	background-size: cover;
+}
