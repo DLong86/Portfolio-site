@@ -18,10 +18,10 @@ const Projects = ({ images }) => {
 				<p>Just a few bits and pieces...</p>
 			</div>
 			<div className={styles.imgslider}>
-				<p>description goes here dragged from value from images.js objects</p>
 				<Slider {...settings}>
 					{images.map(item => (
 						<div key={item.id}>
+							<p>{item.description}</p>
 							<img
 								className={styles.projectImg}
 								src={item.src}
