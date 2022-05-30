@@ -1,0 +1,16 @@
+.projectPage {
+	margin: 50px 40px;
+	padding-bottom: 50px;
+}
+
+.tag {
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 50px;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+.imgslider {
+	width: 90%;
+	margin: 20px auto;
+}
