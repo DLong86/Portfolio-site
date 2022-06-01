@@ -7,5 +7,5 @@ It has some dynamic elements
   - the use of React-router-dom to switch between pages
 
 To be added...
-  - a projects page, with pictures of past projects
+  - a projects page, with pictures of past projects (*DONE!)
   - responsive styling for smaller screens
