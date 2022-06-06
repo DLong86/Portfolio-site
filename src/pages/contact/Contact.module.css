@@ -43,3 +43,17 @@
 	-webkit-text-fill-color: transparent;
 	transition: 0.3s linear;
 }
+
+@media (max-width: 1000px) {
+	.contact-container {
+		width: 80%;
+		margin: 60px auto;
+		align-items: flex-start;
+	}
+	.contact-container h3 a {
+		font-size: 24px;
+	}
+	.contact-links {
+		margin: auto;
+	}
+}
