@@ -5,34 +5,38 @@ import 'slick-carousel/slick/slick-theme.css';
 import styles from './Projects.module.css';
 
 const Projects = ({ images }) => {
-	const settings = {
-		dots: true,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-	};
 	return (
-		<div className={styles.projectPage}>
-			<div className={styles.tag}>
-				<p>Just a few bits and pieces...</p>
-			</div>
-			<div className={styles.imgslider}>
-				<Slider {...settings}>
-					{images.map(item => (
-						<div key={item.id}>
-							<p>{item.description}</p>
-							<img
-								className={styles.projectImg}
-								src={item.src}
-								alt={item.alt}
-							/>
-						</div>
-					))}
-				</Slider>
+		<div className={styles.projects}>
+			<div className={styles['image-section']}>
+				<div className={styles['image-box']}>
+					<h3>Sane & Able</h3>
+					<p>Landing Page</p>
+					<div className={styles['image1']}></div>
+				</div>
+				<div className={styles['image-box']}>
+					<h3>Sane & Able</h3>
+					<p>Landing Page</p>
+					<div className={styles['image2']}></div>
+				</div>
+				<div className={styles['image-box']}>
+					<h3>Sane & Able</h3>
+					<p>Landing Page</p>
+					<div className={styles['image3']}></div>
+				</div>
+				<div className={styles['image-box']}>
+					<h3>Sane & Able</h3>
+					<p>Landing Page</p>
+					<div className={styles['image3']}></div>
+				</div>
+				<div className={styles['image-box']}>
+					<h3>Sane & Able</h3>
+					<p>Landing Page</p>
+					<div className={styles['image3']}></div>
+				</div>
 			</div>
 		</div>
 	);
 };
 
 export default Projects;
+
