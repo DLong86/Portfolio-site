@@ -9,6 +9,9 @@
 	background-color: #faf9f6;
 	color: #181818;
 }
+.about-container {
+	margin: auto;
+}
 .profile {
 	width: 250px;
 	height: 250px;
@@ -16,4 +19,14 @@
 	margin: 40px auto;
 	background-image: url('../../../public/IMG_9502.jpeg');
 	background-size: cover;
+}
+.section2 a {
+	color: #181818;
+	font-weight: 700;
+}
+
+@media (max-width: 700px) {
+	.about-container {
+		width: 80%;
+	}
 }
