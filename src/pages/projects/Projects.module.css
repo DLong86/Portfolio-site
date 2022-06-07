@@ -1,24 +1,26 @@
 .projects {
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #fffafa;
+	background-color: #faf9f6;
 }
 .image-section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	margin: 60px 20px;
 }
 .image-box {
-	width: 400px;
+	width: 100%;
 	height: 400px;
 	background-color: #000;
-	margin: 20px auto;
+	margin: 30px auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -27,26 +29,47 @@
 	position: relative;
 }
 .image1 {
-	background-image: url('https://images.unsplash.com/photo-1519692933481-e162a57d6721?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170');
+	background-image: url('./images/Screenshot\ 2022-06-07\ at\ 10.34.30.png');
 }
+.image2 {
+	background-image: url('./images/Screenshot\ 2022-06-06\ at\ 11.30.53.png');
+}
+.image4 {
+	background-image: url('./images/Screenshot\ 2022-06-07\ at\ 11.19.20.png');
+}
+.image5 {
+	background-image: url('./images/Screenshot\ 2022-06-07\ at\ 11.27.39.png');
+}
+
 .image1,
 .image2,
-.image3 {
+.image3,
+.image4,
+.image5 {
 	width: 100%;
 	height: 100%;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	opacity: 0.3;
 	position: absolute;
 	top: 0;
 	left: 0;
 	transition: 0.3s linear;
-	background-image: url('https://images.unsplash.com/photo-1519692933481-e162a57d6721?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170');
+	/* background-image: url('https://images.unsplash.com/photo-1519692933481-e162a57d6721?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170'); */
+}
+.image3 {
+	background-image: url('./images/Screenshot\ 2022-06-07\ at\ 11.15.51.png');
+	background-position: top;
 }
 .image1:hover,
 .image2:hover,
-.image3:hover {
+.image3:hover,
+.image4:hover,
+.image5:hover {
 	opacity: 1;
 	transition: 0.3s linear;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 1000px) {
@@ -56,8 +79,8 @@
 	}
 
 	.image-box {
-		margin: 20px;
-		width: 600px;
+		margin: 50px;
+		width: 1000px;
 		height: 600px;
 	}
 }
