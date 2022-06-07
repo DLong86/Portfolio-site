@@ -18,8 +18,14 @@ const About = () => {
 				<br />
 				<div className={styles.section2}>
 					<p>I now have a few years experience coding, building pet projects</p>
-					<p>as well as helping code for design companies like Sane & Able </p>
-					<p>And Kaori Ito Photography.</p>
+					<p>
+						as well as helping code for design companies like
+						<a href='https://saneandable.co.uk/'> Sane & Able</a>
+					</p>
+					<p>
+						And{' '}
+						<a href='http://www.kaori-kenny.com/top/'>Kaori Ito Photography</a>.
+					</p>
 					<p>
 						So far, I've mostly been using HTML, CSS, JavaScript, React.js,
 						Firebase,
