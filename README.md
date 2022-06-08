@@ -8,4 +8,4 @@ It has some dynamic elements
 
 To be added...
   - a projects page, with pictures of past projects (*DONE!)
-  - responsive styling for smaller screens
+  - responsive styling for smaller screens (*DONE!)
