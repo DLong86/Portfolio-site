@@ -55,9 +55,12 @@ ul {
 .links .home-active {
 	display: none;
 }
+.logo {
+	margin-bottom: 15px;
+}
 .logo a {
 	color: var(--primary-color);
-	font-size: 36px;
+	font-size: 33px;
 	font-weight: 900;
 	padding-bottom: 0;
 }
