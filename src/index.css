@@ -194,8 +194,6 @@ ul.slick-dots button::before {
 	}
 	.nav {
 		justify-content: space-between;
-	}
-	.nav {
 		height: 0;
 	}
 	.links {
