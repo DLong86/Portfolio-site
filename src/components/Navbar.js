@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	const [menu, setMenu] = useState(false);
 	const showLinks = () => setMenu(!menu);
+
+	const handleClick = () => setMenu(false);
 
 	return (
 		<nav className='nav'>
@@ -13,13 +15,24 @@ const Navbar = () => {
 			<div className='menu-wrap'>
 				<ul className={'links' && menu ? 'links open' : 'links'}>
 					<li>
-						<Link to='/about'>About</Link>
+						<Link className='home-active' onClick={handleClick} to='/'>
+							Home
+						</Link>
 					</li>
 					<li>
-						<Link to='/projects'>Projects</Link>
+						<Link onClick={handleClick} to='/about'>
+							About
+						</Link>
 					</li>
 					<li>
-						<Link to='/contact'>Contact</Link>
+						<Link onClick={handleClick} to='/projects'>
+							Projects
+						</Link>
+					</li>
+					<li>
+						<Link onClick={handleClick} to='/contact'>
+							Contact
+						</Link>
 					</li>
 					<li>
 						<a href='https://github.com/DLong86'>GitHub</a>
