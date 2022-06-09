@@ -24,3 +24,40 @@
 .dot {
 	color: var(--primary-color);
 }
+
+@media (max-width: 1000px) {
+	.home-main {
+		margin-top: 50px;
+	}
+
+	.home-main h1 {
+		font-size: 4rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.home-main {
+		margin-top: 10%;
+	}
+	.home-main h1 {
+		font-size: 3rem;
+		margin-left: 20%;
+	}
+	.home-container {
+		max-width: 80%;
+	}
+}
+
+@media (max-width: 600px) {
+	.home-main {
+		margin: auto;
+	}
+	.home-main h1 {
+		margin-left: 18%;
+	}
+	.home-container {
+		max-width: 100%;
+		margin: auto;
+	}
+}
+
